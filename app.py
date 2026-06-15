@@ -1,9 +1,9 @@
 import streamlit as st
 
-st.set_page_config(page_title="AutoPilot", page_icon="🚀", layout="wide")
-st.title("🚀 AutoPilot")
+st.set_page_config(page_title="ModelDirector", page_icon="🚀", layout="wide")
+st.title("🚀 ModelDirector")
 st.subheader("Adaptive Multi-Provider LLM Gateway")
-st.markdown("""AutoPilot is an intelligent LLM orchestration platform built using LiteLLM.""")
+st.markdown("""ModelDirector is an intelligent LLM orchestration platform built using LiteLLM.""")
 st.success("""
 It dynamically routes user requests across multiple AI providers based on:
 - Task Type
