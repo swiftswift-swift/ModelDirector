@@ -12,7 +12,7 @@ router_engine = RouterEngine()
 llm_client = LLMClient()
 metrics = MetricsCollector()
 
-st.title("🚀 AutoPilot")
+st.title("🚀 ModelDirector")
 st.caption("Adaptive Multi-Provider LLM Gateway")
 query = st.text_area("Enter your prompt", height=150, placeholder="Ask anything...")
 
